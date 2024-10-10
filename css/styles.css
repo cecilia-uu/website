@@ -188,3 +188,13 @@ a:hover {
     color: #7f8c8d;
     line-height: 1.5;
 }
+
+.introduction {
+    color:#434343;
+    max-width: 1500px;
+}
+.experience-table {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
