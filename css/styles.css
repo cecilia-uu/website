@@ -25,6 +25,7 @@ header {
     left: 0;
     z-index: 10;
     padding: 10px;
+    height: 100px;
 }
 
 img.profile-photo {
@@ -53,7 +54,7 @@ nav ul li a.active {
 main {
     flex: 1;
     max-width: 100%;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 100px;
     padding: 20px;
     display: flex;
