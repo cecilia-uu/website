@@ -94,51 +94,52 @@ a:hover {
     line-height: 1.5;
     margin-top: 10px;
     max-width: 1300px;
-    text-align: center; /* 使用text-align属性来居中段落中的文字 */
+    text-align: center; /* center the text */
     margin-left: auto;
-    margin-right: auto; /* 让内容在父级容器中居中 */
-}
-/* 使用 flexbox 布局图片和文字 */
-.project-container {
-    display: flex;
-    align-items: center; /* 垂直居中 */
-    justify-content: center; /* 左对齐 */
+    margin-right: auto; 
 }
 
-/* 图片容器样式 */
+
+.project-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
 .image-container {
     text-align: center;
 }
 
-  /* 图片样式 */
-  .project-image {
-    width: 300px;
-    border-radius: 10px; /* 圆角 */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 图片阴影 */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果 */
-  }
 
-  /* 鼠标悬停时放大图片和加深阴影 */
-  .project-image:hover {
-    transform: scale(1.05); /* 图片放大效果 */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* 阴影加深 */
-  }
-  /* 项目标题样式 */
-  .project-title {
+.project-image {
+    width: 300px;
+    border-radius: 10px; /* round */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.project-image:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.project-title {
     font-size: 1.5em;
     font-weight: bold;
     color: #2c3e50;
     text-decoration: none;
     transition: color 0.3s ease;
-  }
+}
 
-  /* 鼠标悬停时标题颜色变化 */
-  .project-title:hover {
+
+.project-title:hover {
     color: #2980b9; /* 更亮的蓝色 */
-  }
+}
 
-  /* 项目描述样式 */
-  .project-description {
+
+.project-description {
     font-size: 1em;
     color: #7f8c8d;
     line-height: 1.5;
@@ -146,23 +147,23 @@ a:hover {
     max-width: 400px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-  }
-  /* 内容容器对齐和间距 */
-  .content-container {
+}
+  
+.content-container {
     max-width: 400px;
-    padding-left: 15px; /* 增加文字和图片之间的间距 */
+    padding-left: 15px; 
     text-align: left;
-  }
+}
 
-  /* education */
-  .education-table {
+/* education */
+.education-table {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 20px; /* 图片和文字之间的间距 */
+    border-spacing: 20px; 
 }
 
 .education-image-container {
-    width: 150px; /* 限制图片容器的宽度 */
+    width: 150px; 
     vertical-align: top;
 }
 
@@ -195,22 +196,22 @@ a:hover {
 }
 .experience-table {
     display: flex;
-    align-items: center; /* 垂直居中 */
-    justify-content: center; /* 水平居中 */
+    align-items: center; 
+    justify-content: center; 
 }
 
 
 .contact-section {
     display: flex;
-    flex-direction: column; /* 使内容垂直排列 */
-    align-items: center; /* 水平居中 */
-    justify-content: center; /* 垂直居中 */
-    height: 100vh; /* 可选：让父元素占满整个视口高度 */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
 }
 .contact-container {
     display: flex;
-    align-items: center; /* 垂直居中 */
-    justify-content: center; /* 水平居中 */
+    align-items: center; 
+    justify-content: center; 
     flex-wrap: wrap;
 }
 .contact-method {
