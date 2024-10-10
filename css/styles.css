@@ -124,6 +124,10 @@ a:hover {
     transition: color 0.3s ease;
 }
 
+.name {
+    text-align: center;
+}
+
 /* projects */
 .project-overview {
     font-size: 1em;
