@@ -88,12 +88,22 @@ a:hover {
 }
 
 /* projects */
+.project-overview {
+    font-size: 1em;
+    color: #7f8c8d;
+    line-height: 1.5;
+    margin-top: 10px;
+    max-width: 1300px;
+    text-align: center; /* 使用text-align属性来居中段落中的文字 */
+    margin-left: auto;
+    margin-right: auto; /* 让内容在父级容器中居中 */
+}
 /* 使用 flexbox 布局图片和文字 */
 .project-container {
     display: flex;
     align-items: center; /* 垂直居中 */
-    justify-content: flex-start; /* 左对齐 */
-  }
+    justify-content: center; /* 左对齐 */
+}
 
 /* 图片容器样式 */
 .image-container {
