@@ -86,3 +86,59 @@ a:hover {
     color: #007bff;
     transition: color 0.3s ease;
 }
+
+/* projects */
+/* 使用 flexbox 布局图片和文字 */
+.project-container {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: flex-start; /* 左对齐 */
+  }
+
+/* 图片容器样式 */
+.image-container {
+    text-align: center;
+}
+
+  /* 图片样式 */
+  .project-image {
+    width: 300px;
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 图片阴影 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果 */
+  }
+
+  /* 鼠标悬停时放大图片和加深阴影 */
+  .project-image:hover {
+    transform: scale(1.05); /* 图片放大效果 */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* 阴影加深 */
+  }
+  /* 项目标题样式 */
+  .project-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  /* 鼠标悬停时标题颜色变化 */
+  .project-title:hover {
+    color: #2980b9; /* 更亮的蓝色 */
+  }
+
+  /* 项目描述样式 */
+  .project-description {
+    font-size: 1em;
+    color: #7f8c8d;
+    line-height: 1.5;
+    margin-top: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  /* 内容容器对齐和间距 */
+  .content-container {
+    padding-left: 15px; /* 增加文字和图片之间的间距 */
+    text-align: left;
+  }
