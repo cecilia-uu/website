@@ -149,6 +149,42 @@ a:hover {
   }
   /* 内容容器对齐和间距 */
   .content-container {
+    max-width: 400px;
     padding-left: 15px; /* 增加文字和图片之间的间距 */
     text-align: left;
   }
+
+  /* education */
+  .education-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px; /* 图片和文字之间的间距 */
+}
+
+.education-image-container {
+    width: 150px; /* 限制图片容器的宽度 */
+    vertical-align: top;
+}
+
+.education-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.education-content-container {
+    vertical-align: top;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.education-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.education-description {
+    font-size: 1em;
+    color: #7f8c8d;
+    line-height: 1.5;
+}
