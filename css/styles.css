@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -13,6 +16,7 @@ header {
     top: 0;
     left: 0;
     z-index: 10;
+    padding: 10px;
 }
 
 img.profile-photo {
@@ -39,6 +43,8 @@ nav ul li a.active {
 }
 
 main {
+    flex: 1;
+    max-width: 100%;
     margin-top: 80px;
     padding: 20px;
     display: flex;
@@ -46,6 +52,8 @@ main {
     align-items: center;
     height: 80vh;
     text-align: center;
+    font-size: 16px;
+    overflow-y: auto;
 }
 
 h1 {
@@ -68,9 +76,13 @@ footer {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;
+    }
+    main {
+        padding: 10px;
+        font-size: 14px;
     }
 }
 
